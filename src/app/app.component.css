@@ -1,0 +1,45 @@
+header {
+  background: hsla(0,0%,100%,.075);
+  border-bottom: 1px solid hsla(0,0%,100%,.05);
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+header .top-bar {
+  background: white;
+  padding: 10px;
+  color: #666;
+  border-bottom: 1px solid #CCC;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+header .top-bar img{
+  height: 50px;
+  margin: 0px 10px;
+}
+
+header h1 {
+  font-weight: normal;
+  margin: 20px;
+}
+
+section#main {
+  margin-top: -80px;
+}
+
+section#main .card {
+  padding: 20px;
+  color: #222;
+  margin-bottom: 20px;
+  border-radius: 2px;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,.14), 0 6px 30px 5px rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+section#main .col-md-3 .card {
+  height: 150px;
+}
+
+section#main agm-map {
+  height: 500px;
+}
