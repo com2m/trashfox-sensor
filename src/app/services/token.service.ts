@@ -34,7 +34,7 @@ export class TokenService {
   }
 
   private getTokenUrl(): string {
-    return 'https://cloud.com2m.de/api/user-service/oauth/token';
+    return 'https://staging.com2m.de/api/user-service/oauth/token';
   }
 
 }

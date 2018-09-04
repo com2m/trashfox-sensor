@@ -17,7 +17,7 @@ export class SensorService {
 
   public getLatestValues(): Observable<Object> {
     let id = '98e45e91-86f6-4f0b-92a1-a68d877f7c59';
-    return this.http.get(`https://cloud.com2m.de/api/time-series-service/data-points/values/${id}/latest`, this.getHeaderOptions());
+    return this.http.get(`https://staging.com2m.de/api/time-series-service/data-points/values/${id}/latest`, this.getHeaderOptions());
   }
 
   private getHeaderOptions() {
