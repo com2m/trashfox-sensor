@@ -6,7 +6,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod --aot",
-    "package": "npm install && ng build --prod --aot --bh /trashfox/",
+    "package": "npm install && ng build --prod --aot --base-href /trashfox/",
     "docker": "docker build . -t docker.com2m.de/iot/stuff/stuff-trashfox-sensor:snapshot",
     "test": "ng test",
     "lint": "ng lint",
