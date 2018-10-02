@@ -17,7 +17,7 @@ import {AgmCoreModule} from "@agm/core";
     HttpClientModule,
     NgbModule.forRoot(),
     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyAquT5VuoFhM-qYDfbIS0V-jE-1VenaQqw'
+      apiKey: 'AIzaSyBi3ayxcYaWCh_LnNIGx5SlhBhZQGS_RRY'
     })
   ],
   providers: [TokenService, SensorService],
